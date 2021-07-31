@@ -1,0 +1,129 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width:  25%;}
+.col-4 {width: 31.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+/* nav var  start */
+
+.nav-logo{
+     text-align: left;
+}
+
+.nav-hadding h1{
+     color: white;
+     text-align: right;
+}
+
+.nav-menu {
+     flex-direction: row;
+     justify-content: flex-end;
+}
+.nav-menu a{
+     padding: 5px 10px;
+     margin: 25px 5px;
+    background-color: transparent;
+}
+
+/* nav var end */
+
+
+
+/* profile start */
+
+.profile .Weather-top-icon{
+     position: absolute;
+     right: 100px;
+     top: 100px;
+     transition: transform 3s;
+}
+
+.profile .Weather-top-icon:hover{
+     transform: rotate(360deg);
+}
+
+
+.protfolio-hadding p{
+     color:black;
+     font-size: 1.5rem;
+     font-family: 'Satisfy', cu  rsive;
+     text-align: center;
+}
+
+
+.profile .Weather-Bottom-icon{
+     position: absolute;
+     left: 50px;
+     top: 650px;
+     transition: transform 3s;
+}
+
+.profile .Weather-Bottom-icon:hover{
+     transform: rotate(360deg);
+}
+
+/* profile end  */
+
+
+/* about me start */
+  
+.aboutme-image{
+     margin-top: 180px;
+}
+
+.aboutme-image img{
+     border-radius: 150px;
+     height: 290px;
+     width: 270px;
+}
+
+.about-desc p{
+     text-align: left;
+}
+
+
+.about-desc {
+     text-align: left;
+}
+
+.cv-button:hover{
+ background-color:red;
+}
+
+/* about me end */
+
+
+/* contact me start */
+.contact{
+     
+     margin: 4px 30px;
+     padding: 0px 10px;
+     text-align: center;
+
+}
+
+/* contact me end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
